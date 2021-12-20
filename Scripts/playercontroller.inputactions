@@ -1,0 +1,52 @@
+{
+    "name": "playercontroller",
+    "maps": [
+        {
+            "name": "player",
+            "id": "ab2363a3-12ee-489c-ba84-c68ea8c6f8e5",
+            "actions": [
+                {
+                    "name": "turn",
+                    "type": "Value",
+                    "id": "98d68691-98e7-471c-a9f9-7413b6152a4a",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "move",
+                    "type": "Value",
+                    "id": "0d4d5f89-8f0c-4a92-9c1b-339752b35aba",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "f9b1b7a5-94ce-4217-bbbb-1b3a4bcac188",
+                    "path": "<Gamepad>/rightStick",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "turn",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "3975d6cb-1450-44fb-8118-065a49f14793",
+                    "path": "<Gamepad>/leftStick",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "move",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
